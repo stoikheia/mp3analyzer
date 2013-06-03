@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mp3analyzer", "mp3analyzer\mp3analyzer.vcproj", "{AFD4D1F5-24A9-42EB-8E8C-40A7B68B33B8}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mp3edit_tag_joint_stereo", "mp3edit_tag_joint_stereo\mp3edit_tag_joint_stereo.vcproj", "{1760CEC1-274B-4509-8396-3C2372B10128}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AFD4D1F5-24A9-42EB-8E8C-40A7B68B33B8}.Debug|Win32.ActiveCfg = Debug|Win32
+		{AFD4D1F5-24A9-42EB-8E8C-40A7B68B33B8}.Debug|Win32.Build.0 = Debug|Win32
+		{AFD4D1F5-24A9-42EB-8E8C-40A7B68B33B8}.Release|Win32.ActiveCfg = Release|Win32
+		{AFD4D1F5-24A9-42EB-8E8C-40A7B68B33B8}.Release|Win32.Build.0 = Release|Win32
+		{1760CEC1-274B-4509-8396-3C2372B10128}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1760CEC1-274B-4509-8396-3C2372B10128}.Debug|Win32.Build.0 = Debug|Win32
+		{1760CEC1-274B-4509-8396-3C2372B10128}.Release|Win32.ActiveCfg = Release|Win32
+		{1760CEC1-274B-4509-8396-3C2372B10128}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,209 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C34DF1E416004F4100B8B644 /* MP3Analyzer.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = C34DF1E316004F4100B8B644 /* MP3Analyzer.1 */; };
+		C34DF1EF16004FA900B8B644 /* mp3analyzer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C34DF1EE16004FA900B8B644 /* mp3analyzer.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C34DF1DB16004F4100B8B644 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				C34DF1E416004F4100B8B644 /* MP3Analyzer.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C34DF1DD16004F4100B8B644 /* MP3Analyzer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MP3Analyzer; sourceTree = BUILT_PRODUCTS_DIR; };
+		C34DF1E316004F4100B8B644 /* MP3Analyzer.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = MP3Analyzer.1; sourceTree = "<group>"; };
+		C34DF1EE16004FA900B8B644 /* mp3analyzer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = mp3analyzer.cpp; path = ../../mp3analyzer/mp3analyzer.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C34DF1DA16004F4100B8B644 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C34DF1D216004F4000B8B644 = {
+			isa = PBXGroup;
+			children = (
+				C34DF1E016004F4100B8B644 /* MP3Analyzer */,
+				C34DF1DE16004F4100B8B644 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C34DF1DE16004F4100B8B644 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C34DF1DD16004F4100B8B644 /* MP3Analyzer */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C34DF1E016004F4100B8B644 /* MP3Analyzer */ = {
+			isa = PBXGroup;
+			children = (
+				C34DF1EE16004FA900B8B644 /* mp3analyzer.cpp */,
+				C34DF1E316004F4100B8B644 /* MP3Analyzer.1 */,
+			);
+			path = MP3Analyzer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C34DF1DC16004F4100B8B644 /* MP3Analyzer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C34DF1E716004F4100B8B644 /* Build configuration list for PBXNativeTarget "MP3Analyzer" */;
+			buildPhases = (
+				C34DF1D916004F4100B8B644 /* Sources */,
+				C34DF1DA16004F4100B8B644 /* Frameworks */,
+				C34DF1DB16004F4100B8B644 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MP3Analyzer;
+			productName = MP3Analyzer;
+			productReference = C34DF1DD16004F4100B8B644 /* MP3Analyzer */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C34DF1D416004F4100B8B644 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = C34DF1D716004F4100B8B644 /* Build configuration list for PBXProject "MP3Analyzer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C34DF1D216004F4000B8B644;
+			productRefGroup = C34DF1DE16004F4100B8B644 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C34DF1DC16004F4100B8B644 /* MP3Analyzer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C34DF1D916004F4100B8B644 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C34DF1EF16004FA900B8B644 /* mp3analyzer.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C34DF1E516004F4100B8B644 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C34DF1E616004F4100B8B644 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C34DF1E816004F4100B8B644 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C34DF1E916004F4100B8B644 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C34DF1D716004F4100B8B644 /* Build configuration list for PBXProject "MP3Analyzer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C34DF1E516004F4100B8B644 /* Debug */,
+				C34DF1E616004F4100B8B644 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C34DF1E716004F4100B8B644 /* Build configuration list for PBXNativeTarget "MP3Analyzer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C34DF1E816004F4100B8B644 /* Debug */,
+				C34DF1E916004F4100B8B644 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C34DF1D416004F4100B8B644 /* Project object */;
+}
