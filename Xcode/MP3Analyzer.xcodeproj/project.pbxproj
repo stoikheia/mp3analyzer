@@ -27,7 +27,7 @@
 /* Begin PBXFileReference section */
 		C34DF1DD16004F4100B8B644 /* MP3Analyzer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MP3Analyzer; sourceTree = BUILT_PRODUCTS_DIR; };
 		C34DF1E316004F4100B8B644 /* MP3Analyzer.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = MP3Analyzer.1; sourceTree = "<group>"; };
-		C34DF1EE16004FA900B8B644 /* mp3analyzer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = mp3analyzer.cpp; path = ../../mp3analyzer/mp3analyzer.cpp; sourceTree = "<group>"; };
+		C34DF1EE16004FA900B8B644 /* mp3analyzer.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = mp3analyzer.cpp; path = ../../mp3analyzer/mp3analyzer.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
